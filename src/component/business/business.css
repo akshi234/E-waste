@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-body{
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(/src/assets/img9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    
+}
+
+.head{
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+.input-box{
+    width: 25vw;
+    height: 6vh;
+    border-radius: 2rem;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 37rem;
+    margin-top: 4rem;
+    box-shadow: 0 0 20px rgba(221, 211, 211, 0.5); 
+}
+.or{
+    position: relative;
+    z-index: 1;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.location{
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 38rem;
+    margin-top: 3rem;
+}
+.city{
+    width: 20vw;
+    height: 4vh;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1.5rem;
+    padding: 8px;
+}
+
+.sub-btn{
+    width: 21vw;
+    height: 6vh;
+    background-color: rgb(25, 25, 152);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}

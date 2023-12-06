@@ -1,0 +1,81 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background: transparent;
+    color: black;
+    position: relative;
+    position: sticky;
+    top: .5rem;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    font-size: 20px;
+    
+  }
+  .eco{
+    position: relative;
+    left: 6rem;
+  }
+  .evaluate{
+    position: relative;
+    left: 3rem;
+  }
+  .loginn{
+    position: relative;
+    left: 6rem;
+    
+  }
+  .logo{
+    color: white;
+  }
+  .busi-btn{
+    position: relative;
+    right: 1.5rem;
+    width: 8rem;
+    height: 2rem;
+    color: black;
+    font-size: 1rem;
+    border-radius: .5rem;
+    border: none;
+  }
+  .navbar a:hover {
+    color: gray
+  }
+  .fas{
+    position: relative;
+    left: 6rem;
+  }
+
+  .user-icon {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: white;
+  }
+  
+  .user-emaill{
+    color: black;
+  }
+  .user-options {
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: .5rem;
+    /* background-color: black;   */
+  }
+  
+  .logout-btn {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  

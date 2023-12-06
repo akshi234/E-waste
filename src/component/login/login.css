@@ -1,0 +1,10 @@
+
+.login-wrapper{
+    
+    background-image: url(/src/assets/img7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+     position: relative;
+     bottom: 3.12rem;
+}
+
